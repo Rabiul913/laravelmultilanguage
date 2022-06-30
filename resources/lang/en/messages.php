@@ -2,6 +2,9 @@
   
 return [
   
-    'title' => 'This is English Language Title.',
+   
+    "Sign in"=> "Sign in",
+    "Email address"=> "Email address",
+    "Password"=> "Password"
   
 ];
