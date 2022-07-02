@@ -20,4 +20,5 @@ Route::get('/', function () {
 });
 
 Route::get('view', [LangController::class,'index']);
-Route::get('lang/change', [LangController::class,'change'])->name('changeLang');
+// Route::get('lang/change', [LangController::class,'change'])->name('changeLang');
+Route::get('/changelanguage/{lang}', [LangController::class,'change'])->name('changeLanguage');
